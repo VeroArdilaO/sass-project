@@ -1,13 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <link rel="icon" type="image/svg+xml" href="/assets/images/favicon.svg" sizes="any">
-    <link rel="stylesheet" href="assets/styles/styles.css">
-    <title>Sass Project</title>
-</head>
-<body>
-<h1>Hello world!</h1>
-
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="icon" type="image/svg+xml" href="/assets/images/favicon.svg" sizes="any">
+        <link rel="stylesheet" href="assets/styles/styles.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <base href="https://picsum.photos/" target="_blank" />
+        <title>Sass Project</title>
+    </head>
+    <body>
+        <header class="container-header">
+             <article>
+                <h1>Lorem Picsum</h1>
+                <h3>The Lorem Ipsum for photos.</h3>
+            </article>
+            <figure>
+                <img src="536/354?random=1" alt="image" />
+            </figure>
+        </header>
+        <section id="mainSection">
+            <article>
+                <h2>Easy to use, stylish placeholders</h2>
+                <p>Just add your desired image size (width & height) after our url,
+                    and you'll get a random image.</p>
+            </article>
+        </section>
+        <section>
+            <article>
+                <h2>Specific Image</h2>
+                <p>Get a specific image by adding /id/{image} to the start of the url.</p>
+            </article>
+            <figure>
+                <img src="536/354?random=2" alt="image" />
+            </figure>
+        </section>
+        <section>
+            <figure>
+                <img  src="536/354?random=3" alt="image" />
+            </figure>
+            <article>
+                <h2>Static Random Image</h2>
+                <p>Get the same random image every time based on a seed, by adding /seed/{seed} to the start of the url.</p>
+            </article>
+        </section>
+        <section>
+            <article>
+                <h2>Grayscale</h2>
+                <p>Get a grayscale image by appending ?grayscale to the end of the url.</p>
+            </article>
+            <figure>
+                <img  src="536/354?random=4" alt="image"/>
+            </figure>
+        </section>
+        <section>
+            <figure>
+                <img src="536/354?random=6" alt="image"/>
+            </figure>
+            <article>
+                <h2>Blur</h2>
+                <p>Get a blurred image by appending ?blur to the end of the url.</p>
+            </article>
+        </section>
+        <section>
+            <article>
+                <h2>Advanced Usage </h2>
+                <p>Get a specific image by adding /id/{image} to the start of the url.</p>
+            </article>
+           <figure>
+               <img src="536/354/?blur=5" alt="image"/>
+           </figure>
+        </section>
+        <footer class="footer">
+            <article id="article-footer">
+                <p>Created by <a href="#">David Marby</a> & <a href="=#">Nijiko Yonskai Source</a>
+                    Having trouble? Poke <a href="#">@DMarby </a>on Twitter
+                    Images from <a href="#">Unsplash</a></p>
+            </article>
+        </footer>
+    </body>
 </html>

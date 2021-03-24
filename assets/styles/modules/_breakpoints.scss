@@ -1,7 +1,43 @@
 //BREAKPOINTS MOBILE FIRST
-
+@import "variables";
 // Medium devices (tablets, 768px and up)
-@media (min-width: 768px) {}
+@media (min-width: 768px) {
+  article p{
+    text-align: center;
+  }
+  #mainSection{
+
+    display: grid;
+    align-self: center;
+    article{
+      align-self: center;
+    }
+  }
+
+}
 
 // Large devices (desktops, 992px and up)
-@media (min-width: 992px) {}
+@media (min-width: 992px) {
+    .container-header{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        article {
+          align-self: center;
+        }
+    }
+  section{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      article {
+        align-self: center;
+        p{
+         text-align: center;
+        }
+      }
+  }
+  #mainSection {
+    display: grid;
+    grid-template-columns: 1fr 10px;
+    justify-content: center;
+  }
+}

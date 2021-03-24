@@ -1,0 +1,34 @@
+.footer{
+  width: $width;
+  height:$heightOthers;
+  padding: 20px 50px;
+  display: grid;
+  justify-content:$justify-content;
+  background-color: $colorDark;
+
+  #article-footer{
+    align-self: center;
+
+  }
+
+  #article-footer p{
+    text-align: $text-alignp;
+    font-size: $font-sizep;
+    line-height: $line-heightp;
+    padding: $paddingp;
+    color:$colorLight;
+
+  }
+  #article-footer p > a{
+    text-decoration: none;
+    color:gray;
+  }
+ #article-footer p > a:hover{
+    color:$colorLight;
+  }
+
+
+
+
+
+}

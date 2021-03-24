@@ -1,0 +1,25 @@
+
+.container-header {
+  width: $width;
+  padding: 100px 0;
+  display: grid;
+  text-align: center;
+
+  article {
+    h1{
+      display: inline-block;
+      font-weight:bolder;
+      font-size: $font-size;
+      margin: 0;
+    }
+
+    h3 {
+      font-weight: lighter;
+      font-size: 1.5em;
+    }
+  }
+
+  #figure-header h3{
+    padding: $paddingp;
+  }
+}
